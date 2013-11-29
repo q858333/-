@@ -19,6 +19,8 @@
 		18F1B67B18482927002849FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1B66318482927002849FC /* UIKit.framework */; };
 		18F1B68318482927002849FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F1B68118482927002849FC /* InfoPlist.strings */; };
 		18F1B68518482927002849FC /* XuanZhuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1B68418482927002849FC /* XuanZhuanTests.m */; };
+		18F1B69018482AC1002849FC /* DBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1B68F18482AC1002849FC /* DBTestViewController.m */; };
+		18F1B69318482DBE002849FC /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1B69218482DBE002849FC /* DBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		18F1B68018482927002849FC /* XuanZhuanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XuanZhuanTests-Info.plist"; sourceTree = "<group>"; };
 		18F1B68218482927002849FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18F1B68418482927002849FC /* XuanZhuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanZhuanTests.m; sourceTree = "<group>"; };
+		18F1B68E18482AC1002849FC /* DBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTestViewController.h; sourceTree = "<group>"; };
+		18F1B68F18482AC1002849FC /* DBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTestViewController.m; sourceTree = "<group>"; };
+		18F1B69118482DBE002849FC /* DBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
+		18F1B69218482DBE002849FC /* DBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				18F1B66E18482927002849FC /* AppDelegate.h */,
 				18F1B66F18482927002849FC /* AppDelegate.m */,
+				18F1B68E18482AC1002849FC /* DBTestViewController.h */,
+				18F1B68F18482AC1002849FC /* DBTestViewController.m */,
+				18F1B69118482DBE002849FC /* DBViewController.h */,
+				18F1B69218482DBE002849FC /* DBViewController.m */,
 				18F1B67118482927002849FC /* Images.xcassets */,
 				18F1B66618482927002849FC /* Supporting Files */,
 			);
@@ -240,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F1B67018482927002849FC /* AppDelegate.m in Sources */,
+				18F1B69018482AC1002849FC /* DBTestViewController.m in Sources */,
+				18F1B69318482DBE002849FC /* DBViewController.m in Sources */,
 				18F1B66C18482927002849FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
